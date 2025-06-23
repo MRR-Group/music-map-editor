@@ -20,14 +20,4 @@ export const INITIAL_BITRATE_STRING = `62.192
 72.113
 72.630`;
 
-// You can add other constants here, e.g.,
-// export const API_BASE_URL = 'https://api.example.com';
-
-
-// src/utils/types.ts
-// This file centralizes all your custom TypeScript type definitions.
-// Represents the state of a single cell on the game board.
-// 0: Blank (gray-700)
-// 1: Black (gray-800)
-// 2: Purple (purple-600)
 export type CellState = 0 | 1 | 2;
